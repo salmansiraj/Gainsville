@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		221C2EAC21FAE9BF000BED5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221C2EAB21FAE9BF000BED5E /* ViewController.swift */; };
+		22B47DDB21FA7F95007AA864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B47DDA21FA7F95007AA864 /* AppDelegate.swift */; };
+		22B47DDD21FA7F95007AA864 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 22B47DDC21FA7F95007AA864 /* GameScene.sks */; };
+		22B47DDF21FA7F95007AA864 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 22B47DDE21FA7F95007AA864 /* Actions.sks */; };
+		22B47DE121FA7F95007AA864 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B47DE021FA7F95007AA864 /* GameScene.swift */; };
+		22B47DE321FA7F95007AA864 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B47DE221FA7F95007AA864 /* GameViewController.swift */; };
+		22B47DE621FA7F95007AA864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B47DE421FA7F95007AA864 /* Main.storyboard */; };
+		22B47DE821FA7F97007AA864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B47DE721FA7F97007AA864 /* Assets.xcassets */; };
+		22B47DEB21FA7F97007AA864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B47DE921FA7F97007AA864 /* LaunchScreen.storyboard */; };
+		A3BC9834939D5B2CE66981F2 /* Pods_Gainsville.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A17725A75A033E27B9C918 /* Pods_Gainsville.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		221C2EAB21FAE9BF000BED5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22B47DD721FA7F95007AA864 /* Gainsville.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gainsville.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B47DDA21FA7F95007AA864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22B47DDC21FA7F95007AA864 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		22B47DDE21FA7F95007AA864 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		22B47DE021FA7F95007AA864 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		22B47DE221FA7F95007AA864 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		22B47DE521FA7F95007AA864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22B47DE721FA7F97007AA864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22B47DEA21FA7F97007AA864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22B47DEC21FA7F97007AA864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8308B7D1CD34C62AF87F5F /* Pods-Gainsville.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gainsville.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gainsville/Pods-Gainsville.release.xcconfig"; sourceTree = "<group>"; };
+		D4A17725A75A033E27B9C918 /* Pods_Gainsville.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gainsville.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD5FDC35219C6A7FDD3930E /* Pods-Gainsville.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gainsville.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gainsville/Pods-Gainsville.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22B47DD421FA7F95007AA864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BC9834939D5B2CE66981F2 /* Pods_Gainsville.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B47DCE21FA7F95007AA864 = {
+			isa = PBXGroup;
+			children = (
+				22B47DD921FA7F95007AA864 /* Gainsville */,
+				22B47DD821FA7F95007AA864 /* Products */,
+				9DD2BADA3A600C89E7AEC3A1 /* Pods */,
+				F09D3D4C0619BF65EC406075 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22B47DD821FA7F95007AA864 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22B47DD721FA7F95007AA864 /* Gainsville.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22B47DD921FA7F95007AA864 /* Gainsville */ = {
+			isa = PBXGroup;
+			children = (
+				22B47DDA21FA7F95007AA864 /* AppDelegate.swift */,
+				221C2EAB21FAE9BF000BED5E /* ViewController.swift */,
+				22B47DDC21FA7F95007AA864 /* GameScene.sks */,
+				22B47DDE21FA7F95007AA864 /* Actions.sks */,
+				22B47DE021FA7F95007AA864 /* GameScene.swift */,
+				22B47DE221FA7F95007AA864 /* GameViewController.swift */,
+				22B47DE421FA7F95007AA864 /* Main.storyboard */,
+				22B47DE721FA7F97007AA864 /* Assets.xcassets */,
+				22B47DE921FA7F97007AA864 /* LaunchScreen.storyboard */,
+				22B47DEC21FA7F97007AA864 /* Info.plist */,
+			);
+			path = Gainsville;
+			sourceTree = "<group>";
+		};
+		9DD2BADA3A600C89E7AEC3A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAD5FDC35219C6A7FDD3930E /* Pods-Gainsville.debug.xcconfig */,
+				2E8308B7D1CD34C62AF87F5F /* Pods-Gainsville.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F09D3D4C0619BF65EC406075 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4A17725A75A033E27B9C918 /* Pods_Gainsville.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22B47DD621FA7F95007AA864 /* Gainsville */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B47DEF21FA7F97007AA864 /* Build configuration list for PBXNativeTarget "Gainsville" */;
+			buildPhases = (
+				C37B473B9EBB1E3BC3AE786A /* [CP] Check Pods Manifest.lock */,
+				22B47DD321FA7F95007AA864 /* Sources */,
+				22B47DD421FA7F95007AA864 /* Frameworks */,
+				22B47DD521FA7F95007AA864 /* Resources */,
+				ECC2F6310C7BB8FA7236DA46 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gainsville;
+			productName = Gainsville;
+			productReference = 22B47DD721FA7F95007AA864 /* Gainsville.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22B47DCF21FA7F95007AA864 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "salman siraj";
+				TargetAttributes = {
+					22B47DD621FA7F95007AA864 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 22B47DD221FA7F95007AA864 /* Build configuration list for PBXProject "Gainsville" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22B47DCE21FA7F95007AA864;
+			productRefGroup = 22B47DD821FA7F95007AA864 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22B47DD621FA7F95007AA864 /* Gainsville */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22B47DD521FA7F95007AA864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B47DE621FA7F95007AA864 /* Main.storyboard in Resources */,
+				22B47DDD21FA7F95007AA864 /* GameScene.sks in Resources */,
+				22B47DE821FA7F97007AA864 /* Assets.xcassets in Resources */,
+				22B47DEB21FA7F97007AA864 /* LaunchScreen.storyboard in Resources */,
+				22B47DDF21FA7F95007AA864 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C37B473B9EBB1E3BC3AE786A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gainsville-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC2F6310C7BB8FA7236DA46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Gainsville/Pods-Gainsville-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gainsville/Pods-Gainsville-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22B47DD321FA7F95007AA864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B47DE121FA7F95007AA864 /* GameScene.swift in Sources */,
+				22B47DE321FA7F95007AA864 /* GameViewController.swift in Sources */,
+				221C2EAC21FAE9BF000BED5E /* ViewController.swift in Sources */,
+				22B47DDB21FA7F95007AA864 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22B47DE421FA7F95007AA864 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22B47DE521FA7F95007AA864 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22B47DE921FA7F97007AA864 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22B47DEA21FA7F97007AA864 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22B47DED21FA7F97007AA864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22B47DEE21FA7F97007AA864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22B47DF021FA7F97007AA864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD5FDC35219C6A7FDD3930E /* Pods-Gainsville.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Gainsville/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.salman.Gainsville;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22B47DF121FA7F97007AA864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E8308B7D1CD34C62AF87F5F /* Pods-Gainsville.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Gainsville/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.salman.Gainsville;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B47DD221FA7F95007AA864 /* Build configuration list for PBXProject "Gainsville" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B47DED21FA7F97007AA864 /* Debug */,
+				22B47DEE21FA7F97007AA864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B47DEF21FA7F97007AA864 /* Build configuration list for PBXNativeTarget "Gainsville" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B47DF021FA7F97007AA864 /* Debug */,
+				22B47DF121FA7F97007AA864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22B47DCF21FA7F95007AA864 /* Project object */;
+}
