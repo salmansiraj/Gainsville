@@ -10,3 +10,4 @@
 ### Future
 * Add in a scoreboard when you lose with the top 5 user scores shown
 * Include more animations to gameplay
+* Maybe include some nutrition facts about different typees of UIImages
